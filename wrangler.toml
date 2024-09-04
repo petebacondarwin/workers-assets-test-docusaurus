@@ -2,4 +2,5 @@
 name = "workers-assets-test-docusaurus"
 compatibility_date = "2024-08-21"
 
-experimental_assets = { directory = "./build" }
+main = "worker.js"
+experimental_assets = { directory = "./build", binding = "ASSETS" }
